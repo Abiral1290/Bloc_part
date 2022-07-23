@@ -65,6 +65,7 @@ class _Second_page extends State<Second_page>{
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
+              Container( child: Text("YO SUo")),
               FloatingActionButton(
                 onPressed: (){
                   BlocProvider.of<Cubit_coun>(context).increament();
